@@ -144,7 +144,7 @@ class CryptoStealMod(loader.Module):
             )
 
     async def jcryptocmd(self, message):
-        """Toggle Crypto-SLink"""
+        """Toggle CryptoSteal"""
 
         self.config["status"] = not self.config["status"]
 
